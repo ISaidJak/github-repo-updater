@@ -6,6 +6,8 @@ import os
 import shutil
 import re
 
+os.chdir(os.path.expanduser('~'))
+
 with open('path/to/repo_update_list.txt') as f:
     
     # copy/paste repository link
